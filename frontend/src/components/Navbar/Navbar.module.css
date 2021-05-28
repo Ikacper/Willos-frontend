@@ -1,0 +1,26 @@
+.navLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.navLink {
+  list-style: none;
+  padding: 1rem;
+}
+
+.link {
+  color: rgb(88, 88, 92);
+  font-weight: 700;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.selected > div {
+  color: rgb(0, 106, 255);
+}

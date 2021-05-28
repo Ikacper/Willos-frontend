@@ -1,0 +1,63 @@
+[
+    {
+    "id":"0",
+    "name": "",
+    "price": 45000,
+    "address": "Sandomierska",
+    "bedrooms": "4",
+    "bathrooms": "2",
+    "squareFeet": "2400",
+    "coordinates": [51.50540931349862, -0.15223029074344183]
+    },
+    {
+    "id":"1",
+    "name": "",
+    "price": 90000,
+    "address": "Marszałkowska",
+    "bedrooms": "2",
+    "bathrooms": "1",
+    "squareFeet": "1000",
+    "coordinates": [51.528673904087036, -0.127953706921079]
+    },
+    {
+    "id":"2",
+    "name": "",
+    "price": 150000,
+    "address": "Belwederska",
+    "bedrooms": "4",
+    "bathrooms": "2",
+    "squareFeet": "1200",
+    "coordinates": [51.5020848304729, -0.08109990014391866]
+    },
+    {
+    "id":"3",
+    "name": "",
+    "price": 200000,
+    "address": "Jana Pawła",
+    "bedrooms": "3",
+    "bathrooms": "1",
+    "squareFeet": "1500",
+    "coordinates": [51.49392370746789, -0.22093302296072873]
+    },
+    {
+    "id":"4",
+    "name": "",
+    "price": 145000,
+    "address": "ForexTrdr",
+    "bedrooms": "3",
+    "bathrooms": "1",
+    "squareFeet": "3000",
+    "coordinates": [51.46761681426835, -0.08595521690839128]
+    },
+    {
+    "id":"5",
+    "name": "",
+    "price": 300000,
+    "address": "Notting Hill",
+    "bedrooms": "5",
+    "bathrooms": "2",
+    "squareFeet": "2000",
+    "coordinates": [51.50994230858324, -0.12091349761259378]
+    }
+]
+

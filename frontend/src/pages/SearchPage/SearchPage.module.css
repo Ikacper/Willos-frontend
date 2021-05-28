@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+}
+
+.mapWrapper {
+  flex: 1 1 0px;
+}
+
+.map {
+  height: 100%;
+  margin: 0;
+}
+
+.tooltip {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+.tooltip > img {
+  padding-right: 0.1rem;
+}
+
+.propertiesWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail {
+  width: 40%;
+  object-fit: cover;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.rooms {
+  font-size: 1rem;
+}
+
+.squareFeet {
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .map {
+    display: none;
+  }
+
+  .mapWrapper {
+    flex: 0 0 0px;
+  }
+}

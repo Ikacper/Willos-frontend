@@ -1,0 +1,133 @@
+.sidebar {
+  box-shadow: -2px 2px 5px 0 rgb(0 0 0 / 40%);
+  z-index: 1;
+  padding: 1rem;
+  height: 83vh;
+  overflow-y: scroll;
+}
+
+.sidebarList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 2rem 0;
+}
+
+.searchTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.item {
+  list-style: none;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.cardPhoto {
+  height: 120px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.estatePrice {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #006aff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  padding: 0.7rem;
+}
+
+.header {
+  display: inline-block;
+  border: 1px solid rgb(209, 209, 213);
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+.header:hover {
+  cursor: pointer;
+  background-color: rgb(242, 250, 255);
+  border-color: rgb(13, 69, 153);
+  color: rgb(13, 69, 153);
+}
+
+.header:focus {
+  box-shadow: rgb(255 255 255) 0px 0px 0px 1px, rgb(166 229 255) 0px 0px 2px 3px,
+    rgb(0 106 255) 0px 0px 2px 4px;
+}
+.header:active {
+  background-color: rgb(224, 242, 255);
+  border-color: rgb(0, 23, 81);
+  color: rgb(0, 23, 81);
+}
+
+.wrapper {
+  display: none;
+  position: absolute;
+  margin-top: 0.5rem;
+  right: 30px;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 30%) 0px 8px 12px 0px;
+  width: 150px;
+  padding: 1rem 0;
+  border-radius: 8px;
+}
+
+.wrapperOpen {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItem > button {
+  border: none;
+  background-color: transparent;
+  padding: 0.3rem;
+  width: 100%;
+  text-align: left;
+}
+
+.listItem > button:hover {
+  cursor: pointer;
+  background-color: rgb(242, 250, 255);
+  border-color: rgb(13, 69, 153);
+  color: rgb(13, 69, 153);
+}
+
+@media (min-width: 1000px) {
+  .sidebar {
+    width: 350px;
+  }
+}
+@media (min-width: 1280px) {
+  .sidebar {
+    width: 750px;
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding: 1rem;
+  position: relative;
+}
+
+.searchInput {
+  padding: 0.3rem 2rem 0.3rem 0.5rem;
+  border: 1px solid rgb(167, 166, 171);
+  border-radius: 3px;
+  box-shadow: rgb(249 249 251) 0px 2px 2px inset, rgb(98 174 247) 0px 0px 0px;
+  margin-right: 0.5rem;
+}
+
+.searchBtn {
+  background: white;
+  border: 1px solid rgb(209, 209, 213);
+  border-radius: 2px;
+  color: rgb(0, 106, 255);
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.searchBtn:hover {
+  background-color: rgb(242, 250, 255);
+  border-color: rgb(13, 69, 153);
+  color: rgb(13, 69, 153);
+  cursor: pointer;
+}
+
+.loupe {
+  border: none;
+  background-color: #fff;
+  width: 18px;
+  position: absolute;
+  bottom: 18px;
+  left: 200px;
+}
+
+.loupe:hover {
+  cursor: pointer;
+}
